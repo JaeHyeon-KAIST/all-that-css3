@@ -43,3 +43,45 @@ body {
   text-align: center;
   font-weight: 500;
 }
+.profile ul {
+  list-style: none;
+  padding: 0;
+}
+.profile ul li {
+  border-bottom: 1px solid #eee;
+  padding: 5px 0;
+}
+.profile ul li span {
+  font-weight: 500;
+  width: 90px;
+  display: inline-block;
+}
+.profile .content:nth-of-type(1) p b {
+  display: block;
+  font-size: 18px;
+}
+.profile .content:nth-of-type(1) p em {
+  font-style: normal;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: crimson;
+  text-underline-offset: 3px;
+}
+.profile .content:nth-of-type(1) a {
+  background-color: royalblue;
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+  text-align: center;
+  transition: 0.35s;
+}
+.profile .content:nth-of-type(1) a:hover {
+  background-color: #000;
+}
+.profile .content:nth-of-type(2) p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2em;
+  text-align: center;
+}
